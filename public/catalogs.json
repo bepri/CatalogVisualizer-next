@@ -1,0 +1,214 @@
+{
+    "cs_2023": {
+        "nodes": {
+            "cosc101": {
+                "hours": 3,
+                "title": "COSC 101 - Introduction to Programming",
+                "term": 1
+            },
+            "engl101": {
+                "hours": 3,
+                "title": "ENGL 101 - English Composition I",
+                "term": 1
+            },
+            "ef151": {
+                "hours": 4,
+                "title": "EF 151/157 - Physics for Engineers I",
+                "term": 1
+            },
+            "math141": {
+                "hours": 4,
+                "title": "MATH 141/147 - Calculus I",
+                "term": 1
+            },
+            "cosc102": {
+                "hours": 4,
+                "title": "COSC 102 - Introduction to Computer Science",
+                "term": 2
+            },
+            "engl102": {
+                "hours": 3,
+                "title": "ENGL 102 - English Composition II",
+                "term": 2
+            },
+            "ef152": {
+                "hours": 3,
+                "title": "EF 152/158 - Physics for Engineers II",
+                "term": 2
+            },
+            "math142": {
+                "hours": 4,
+                "title": "MATH 142/148 - Calculus II",
+                "term": 2
+            },
+            "third_term_glob": {
+                "hours": 3,
+                "title": "Global Citizenship - US Elective",
+                "term": 3
+            },
+            "cosc202": {
+                "hours": 4,
+                "title": "COSC 202 - Data Structures and Algorithms I",
+                "term": 3
+            },
+            "cosc230": {
+                "hours": 3,
+                "title": "COSC 230 - Computer Organization",
+                "term": 3
+            },
+            "math251": {
+                "hours": 3,
+                "title": "MATH 251/257 - Matrix Algebra I",
+                "term": 3
+            },
+            "third_term_science": {
+                "hours": "3 or 4",
+                "title": "Any one of: BIOL 101, BIOL 150, BIOL 158, PHYS 231, CHEM 128 or either pair of: CHEM 102/CHEM 103, CHEM 122/CHEM 123",
+                "term": 3
+            },
+            "fourth_term_hum": {
+                "hours": 3,
+                "title": "Arts and Humanities Elective",
+                "term": 4
+            },
+            "fourth_term_soc": {
+                "hours": 3,
+                "title": "Social Sciences Elective",
+                "term": 4
+            },
+            "cosc302": {
+                "hours": 4,
+                "title": "COSC 302/307 - Data Structures and Algorithms II",
+                "term": 4
+            },
+            "cosc311": {
+                "hours": 3,
+                "title": "COSC 311/317 - Discrete Structures",
+                "term": 4
+            },
+            "ece313": {
+                "hours": 3,
+                "title": "ECE 313/317 - Probability and Random Variables",
+                "term": 4
+            },
+            "cosc312": {
+                "hours": 3,
+                "title": "COSC 312 - Algorithm Analysis and Automata",
+                "term": 5
+            },
+            "cosc340": {
+                "hours": 3,
+                "title": "COSC 340 - Software Engineering",
+                "term": 5
+            },
+            "cosc366": {
+                "hours": 3,
+                "title": "COSC 366 - Introduction to Cybersecurity",
+                "term": 5
+            },
+            "cosc360": {
+                "hours": 4,
+                "title": "COSC 360/367 - Systems Programming",
+                "term": 5
+            },
+            "fifth_term_option": {
+                "hours": 3,
+                "title": "Engaged Inquiry or Unrestricted Elective",
+                "term": 5
+            },
+            "sixth_term_elec": {
+                "hours": 9,
+                "title": "Upper-Division Electives",
+                "term": 6
+            },
+            "sixth_term_glob": {
+                "hours": 3,
+                "title": "Global Citizenship - International Elective",
+                "term": 6
+            },
+            "cosc361": {
+                "hours": 3,
+                "title": "COSC 361 - Operating Systems",
+                "term": 6
+            },
+            "cosc395": {
+                "hours": 1,
+                "title": "COSC 395 - Junior Seminar",
+                "term": 6
+            },
+            "seventh_term_elec": {
+                "hours": 6,
+                "title": "Upper-Division Electives",
+                "term": 7
+            },
+            "seventh_term_exp": {
+                "hours": 3,
+                "title": "Expanded Perspectives Elective",
+                "term": 7
+            },
+            "cosc401": {
+                "hours": 2,
+                "title": "COSC 401 - Senior Design Theory",
+                "term": 7
+            },
+            "seventh_term_engl": {
+                "hours": 3,
+                "title": "ENGL 355 - Rhetoric and Writing -OR- ENGL 360 - Technical and Professional Writing",
+                "term": 7
+            },
+            "eighth_term_elec": {
+                "hours": 6,
+                "title": "Upper-Division Electives",
+                "term": 8
+            },
+            "eighth_term_exp": {
+                "hours": 3,
+                "title": "Expanded Perspectives Elective",
+                "term": 8
+            },
+            "cosc402": {
+                "hours": 3,
+                "title": "COSC 402 - Senior Design Practicum",
+                "term": 8
+            },
+            "eighth_term_option": {
+                "hours": 3,
+                "title": "Engaged Inquiry or Unrestricted Elective",
+                "term": 8
+            }
+        },
+        "edges": {
+            "prerequisites": [
+                ["cosc101", "cosc102"],
+                ["ef151", "ef152"],
+                ["engl101", "engl102"],
+                ["math141", "math142"],
+                ["cosc102", "cosc202"],
+                ["cosc102", "cosc230"],
+                ["math142", "math251"],
+                ["cosc202", "cosc302"],
+                ["cosc202", "cosc311"],
+                ["math142", "cosc311"],
+                ["math142", "ece313"],
+                ["cosc311", "cosc312"],
+                ["cosc302", "cosc340"],
+                ["cosc302", "cosc366"],
+                ["cosc230", "cosc366"],
+                ["cosc302", "cosc360"],
+                ["cosc230", "cosc360"],
+                ["cosc360", "cosc361"],
+                ["cosc302", "cosc395"],
+                ["engl102", "cosc395"],
+                ["cosc360", "cosc401"],
+                ["engl102", "engl355"],
+                ["cosc401", "cosc402"]
+            ],
+            "corequisites": [
+                ["cosc101", "ef151"],
+                ["math141", "ef151"],
+                ["math141", "cosc102"],
+                ["math142", "ef152"]
+            ]
+        }
+    }
+}
